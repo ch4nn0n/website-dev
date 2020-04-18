@@ -1,0 +1,108 @@
+*, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.no-js [data-responsive-toggle] {
+    display: none;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
+.intro, body, html {
+    width: 100%
+}
+
+
+.intro {
+    height: 100%;
+    display: table;
+    color: #fff;
+    background: url(../img/background.jpg) no-repeat fixed 30% 25%;
+    background-size: cover;
+}
+
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.intro-card {
+    display: inline-block;
+}
+
+.intro-card h1 {
+    font-size: 4.5vw;
+}
+
+.intro-card h2 {
+    font-size: 2.5vw;
+}
+
+.intro-card ul {
+    display: table;
+    width: 100%;
+    list-style: none;
+    margin: 2vw 0 0 0;
+}
+
+.intro-card i {
+    font-size: 5vw;
+}
+
+.intro-card ul li {
+    display: table-cell;
+    text-align: center;
+}
+
+.intro-card ul li a i {
+    color: #ffffff;
+    transition: all 0.25s ease-in-out;
+}
+
+.intro-card ul li a i:hover {
+    /*transform: scale(1.1);*/
+    color: #1e5166
+}
+
+@media screen and (max-width: 39.9375em) {
+    .intro {
+        background: url(../img/background.jpg) no-repeat 15% center;
+        background-size: cover;
+    }
+
+    .intro .intro-body {
+        vertical-align: bottom;
+        opacity: 0.5;
+    }
+
+    .intro .columns {
+        background: #1e5166;
+    }
+
+    .intro-card {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+        /*color: black;*/
+    }
+
+    .intro-card h1 {
+        font-size: 9vw;
+        margin-bottom: 0;
+    }
+
+    .intro-card h2 {
+        font-size: 4vw;
+        margin-bottom: 8px;
+    }
+
+    .intro-card i {
+        /*color: black;*/
+        font-size: 9vw;
+        text-align: center;
+    }
+}
