@@ -12,8 +12,8 @@ Run `make build` to create a simple web server, then `make run`. This mounts you
 
 ## Future Improvements
 - Add blog (Material Mkdocs)
-- Simplify CSS and JS
-- Update background picture
-- Local refresh when developing
+- Tidy CSS
+- New background picture
+- Dark-mode switch
 - Update AwesomeFont to v5
 - Add `robots.txt` and `sitemap.xml`
