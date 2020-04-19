@@ -7,6 +7,10 @@
 - [Favicon](https://favicon.io/favicon-generator/), favicon and site manifest generator
 - Netlify
 
+## Styling
+- Colours: #fff ##1e5166
+- Font: Roboto Slab
+
 ## Running Locally
 Run `make build` to create a simple web server, then `make run`. This mounts your local `src` directory so displaying pages is just a matter of updating from the browser.
 
