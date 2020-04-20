@@ -75,7 +75,6 @@ body,html {
 
     .intro .intro-body {
         vertical-align: bottom;
-        opacity: 0.5;
     }
 
     .intro .columns {
@@ -86,7 +85,6 @@ body,html {
         margin: 0;
         padding: 10px;
         width: 100%;
-        /*color: black;*/
     }
 
     .intro-card h1 {
@@ -104,8 +102,15 @@ body,html {
     }
 
     .intro-card i {
-        /*color: black;*/
         font-size: 9vw;
         text-align: center;
+    }
+
+    .intro-card ul li a i:hover {
+        transition-property: scale;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        transform: scale(1.25);
+        color: #ffffff;
     }
 }
