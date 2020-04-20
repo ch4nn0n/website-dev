@@ -15,9 +15,8 @@
 Run `make build` to create a simple web server, then `make run`. This mounts your local `src` directory so displaying pages is just a matter of updating from the browser.
 
 ## Future Improvements
-- Add blog (Material Mkdocs)
-- Tidy CSS
 - New background picture
-- Dark-mode switch
-- Update AwesomeFont to v5
 - Add `robots.txt` and `sitemap.xml`
+
+# Technical Notes
+- Using [FontAwesome v5](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers)
