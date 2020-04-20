@@ -6,7 +6,7 @@ build:
 		.
 
 .PHONY: run
-run:
+run: build
 	docker run \
 		--publish 127.0.0.1:8089:8080 \
 		--rm \
