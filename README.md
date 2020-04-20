@@ -17,6 +17,7 @@ Run `make build` to create a simple web server, then `make run`. This mounts you
 ## Future Improvements
 - New background picture
 - Add `robots.txt` and `sitemap.xml`
+- Improve bitcoin functionality, either copy to clipboard or display QR code or both
 
 # Technical Notes
 - Using [FontAwesome v5](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers)
