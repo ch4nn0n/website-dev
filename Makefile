@@ -1,15 +1,9 @@
 
-.PHONY: build
-build:
-	docker build \
-		--tag website \
-		.
-
 .PHONY: run
-run: build
+run:
 	docker run \
-		--publish 127.0.0.1:8089:8080 \
-		--rm \
 		--name website \
-		--volume "$$(pwd)/src/:/www/:ro" \
-		website
+		--volume "$$(pwd)/src/:/usr/share/nginx/html:ro" \
+		--publish 127.0.0.1:8080:80 \
+		--rm \
+		nginx
