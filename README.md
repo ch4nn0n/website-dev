@@ -8,8 +8,14 @@
 - Netlify
 
 ## Styling
-- Colours: #fff ##1e5166
-- Font: Roboto Slab
+- Colours:
+  - \#FFFFFF (White)
+  - \#1E5166 (Blue sapphire)
+  - \#679436 (Maximum green)
+  - \#C5283D (Cardinal blue)
+- Font:
+  - Roboto
+  - Roboto Slab
 
 ## Running Locally
 Run `make build` to create a simple web server, then `make run`. This mounts your local `src` directory so displaying pages is just a matter of updating from the browser.
